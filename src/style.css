@@ -28,6 +28,7 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  margin: 10px;
 }
 
 p {
@@ -110,4 +111,20 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+
+  .main-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
